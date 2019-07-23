@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    {{--<meta name="viewport" content="width=device-width, maximum-scale=1">--}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Mariëlle van Dijk</title>
     <link rel="icon" href="img/avatar.png" type="image/png">
@@ -40,21 +41,20 @@
 <header class="header" id="header">
     <div class="container">
         <h1 class="animated fadeInDown delay-07s">Mariëlle van Dijk</h1>
-        <ul class="animated fadeInUp delay-1s occupation">
-            <li>PHP Developer</li>
-        </ul>
+        <p class="animated fadeInUp delay-1s occupation">PHP Developer
+        </p>
         {{--<a class="link animated fadeInUp delay-1s servicelink" href="#werkervaring">Vertel mij meer!</a>--}}
     </div>
 </header>
 
 <nav id="main-nav-outer">
     <ul class="nav nav-pills main-nav">
-        <li class="active"><a href="#werkervaring">Werkervaring</a></li>
-        <li><a href="#opleidingen">Opleidingen</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#skillmatrix">Skillmatrix</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="active nav-item"><a href="#werkervaring">Werkervaring</a></li>
+        <li class="nav-item"><a href="#opleidingen">Opleidingen</a></li>
+        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#skillmatrix">Skillmatrix</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
     </ul>
     <a class="res-nav_click" href="#"><img class="hamburger" src="img/hamburger.png"></a>
 </nav>
@@ -69,8 +69,8 @@
                 <li><a href="#" data-filter=".internship">Stages</a></li>
             </ul>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+        <div class="row werkervaring">
+            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s ervaring">
                 <div class="portfolioContainer wow fadeInUp delay-04s">
                     {{-- @todo Make this non-static --}}
                     <div class="experience-box job backend frontend design">

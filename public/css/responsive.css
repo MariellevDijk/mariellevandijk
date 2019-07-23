@@ -1,6 +1,50 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (max-width: 1200px) {
+    .main-nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        float: none;
+        background: #fff;
+        z-index: 99;
+        border-top: 1px solid #eee;
+        margin-top: 4em;
+    }
+
+    .hamburger {
+        margin-top: -15px;
+    }
+
+    .res-nav_click {
+        display: block;
+    }
+
+    .main-nav li {
+        display: block;
+        width: 100%;
+        height: 50px;
+        line-height: 10px;
+        margin: 0px;
+    }
+
+    .main-nav li a {
+        display: block;
+        padding: 12px 32px;
+        margin: 4px 0;
+        border-bottom: 1px solid #f3f3f3;;
+    }
+
+    .main-nav .active {
+        margin-left: 0px;
+    }
+
+    .main-nav li a:hover {
+        color: #7cc576
+    }
+}
 
 @media only screen and (min-width: 992px) {
     /****Ipad Landscape 1024 Container 970 ****/
@@ -14,10 +58,6 @@
 
     .form {
         margin: 0 0 0 20px
-    }
-
-    .main-nav {
-        display: block !important;
     }
 
     /*.portfolioContainer{ width:800px; margin:0px auto !important; } */
@@ -97,16 +137,23 @@
         margin: 0;
     }
 
-    .main-nav {
-        display: block !important;
+    /*.main-nav li a {*/
+        /*padding: 8px 15px;*/
+    /*}*/
+
+    .ervaring {
+        width: 750px;
+        margin: 0 auto !important;
     }
 
-    .main-nav li a {
-        padding: 8px 15px;
+    .portfolioContainer {
+        width: 750px;
+        margin: 0 auto !important;
     }
 
-    /*.portfolioContainer{ width:750px; margin:0px auto !important; }
-    .Portfolio-box{ height:250px;}*/
+    .Portfolio-box {
+        height: 250px;
+    }
 
 }
 
@@ -155,44 +202,46 @@
         padding: 60px 0 70px;
     }
 
-    .main-nav {
-        display: none;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        top: 68px;
-        margin: 0 auto;
-        float: none;
-        background: #fff;
-        z-index: 99;
-        border-top: 1px solid #eee;
-        margin-top: -15px;
-    }
+    /*.main-nav {*/
+        /*display: none;*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*float: none;*/
+        /*background: #fff;*/
+        /*z-index: 99;*/
+        /*border-top: 1px solid #eee;*/
+        /*margin-top: 4em;*/
+    /*}*/
 
-    .hamburger {
-        display: block;
-        margin: auto;
-        margin-top: -15px;
-    }
+    /*.hamburger {*/
+        /*display: block;*/
+        /*margin: auto;*/
+        /*margin-top: -15px;*/
+    /*}*/
 
-    .main-nav li {
-        display: block;
-    }
+    /*.main-nav li {*/
+        /*display: block;*/
+        /*width: 100%;*/
+        /*height: 50px;*/
+        /*line-height: 10px;*/
+        /*margin: 0px;*/
+    /*}*/
 
-    .main-nav li.small-logo {
-        display: none;
-    }
+    /*.main-nav li a {*/
+        /*display: block;*/
+        /*padding: 12px 32px;*/
+        /*margin: 4px 0;*/
+        /*border-bottom: 1px solid #f3f3f3;;*/
+    /*}*/
 
-    .main-nav li a {
-        display: block;
-        padding: 12px 32px;
-        margin: 4px 0;
-        border-bottom: 1px solid #f3f3f3;;
-    }
+    /*.main-nav .active {*/
+        /*margin-left: 0px;*/
+    /*}*/
 
-    .main-nav li a:hover {
-        color: #7cc576
-    }
+    /*.main-nav li a:hover {*/
+        /*color: #7cc576*/
+    /*}*/
 
     .row-education {
         display: block;
@@ -206,7 +255,7 @@
     .opleidingen {
         text-align: center;
     }
-    
+
     .education-title {
         text-align: center !important;
     }
@@ -226,9 +275,9 @@
         margin: 0 auto
     }
 
-    .res-nav_click {
-        display: block;
-    }
+    /*.res-nav_click {*/
+        /*display: block;*/
+    /*}*/
 
     .featured-work {
         font-size: 12px;
@@ -311,22 +360,12 @@
         padding: 5px 16px;
     }
 
-    .Portfolio-nav li {
-        display: block;
-    }
-
     .avatar-mirror {
         width: 50%;
         height: 50%;
-        display:block;
-        margin:auto;
+        display: block;
+        margin: auto;
     }
-
-    /*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
-    .isotope-item{ width:300px; margin:0px auto;}
-    .isotope{ width:400px; margin:0px auto;}
-    .Portfolio-box{}
-    .portfolioContainer{ width:350px; margin:0px auto !important; } */
 
 }
 
@@ -366,7 +405,9 @@
     .Portfolio-box {
         max-width: 300px !important;
         width: 96.4% !important;
-        margin: 0 !important
+        margin: 0px 0px 10px 0px !important;
+        top: -10px;
+
     }
 
     .Portfolio-box img {
