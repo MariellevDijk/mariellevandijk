@@ -15,7 +15,13 @@ class CreateExperienceTable extends Migration
     {
         Schema::create('experience', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->timestamps();
+            $table->text('title');
+            $table->text('period');
+            $table->json('stack');
+            $table->text('description');
+            $table->text('image');
+            $table->text('alt_image');
+            $table->json('types');
         });
     }
 

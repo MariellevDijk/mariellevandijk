@@ -1,0 +1,124 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class PortfolioTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('portfolio')->insert([
+            'id' => 1,
+            'title' => 'The Ultimate Sport Quiz',
+            'url' => '',
+            'text_url' => 'Geen publieke URL',
+            'image' => 'img/portfolio//tusq.png',
+            'alt_image' => 'The Ultimate Sport Quiz',
+            'types' => json_encode(['frontend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 2,
+            'title' => 'NS Servicewinkels',
+            'url' => '',
+            'text_url' => 'Geen publieke URL',
+            'image' => 'img/portfolio/ns.png',
+            'alt_image' => 'NS Servicewinkels',
+            'types' => json_encode(['frontend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 3,
+            'title' => 'Motoport',
+            'url' => 'https://www.motoport.nl/',
+            'text_url' => 'Website: Motoport.nl',
+            'image' => 'img/portfolio/motoport.png',
+            'alt_image' => 'Motoport',
+            'types' => json_encode(['backend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 4,
+            'title' => 'PBMExpress',
+            'url' => 'https://www.pbmexpress.nl/',
+            'text_url' => 'Website: PBMExpress.nl',
+            'image' => 'img/portfolio/pbmexpress.png',
+            'alt_image' => 'PBMExpress',
+            'types' => json_encode(['backend', 'frontend', 'design']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 5,
+            'title' => 'Work Order Manager ( WOM )',
+            'url' => '',
+            'text_url' => 'Geen publieke URL',
+            'image' => 'img/portfolio/wom.png',
+            'alt_image' => 'Work Order Manager',
+            'types' => json_encode(['backend', 'frontend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 6,
+            'title' => 'E-Cargo Manager',
+            'url' => '',
+            'text_url' => 'Geen publieke URL',
+            'image' => 'img/portfolio/seval.png',
+            'alt_image' => 'E-Cargo Manager',
+            'types' => json_encode(['frontend', 'backend', 'design']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 7,
+            'title' => 'Wij schenken Water met een doel',
+            'url' => 'https://wijschenkenwatermeteendoel.nl/',
+            'text_url' => 'Website: Wij schenken water met een doel',
+            'image' => 'img/portfolio/water.png',
+            'alt_image' => 'Wij schenken water met een doel',
+            'types' => json_encode(['frontend', 'backend', 'design']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 8,
+            'title' => 'Fremantle Jobs',
+            'url' => 'https://jobs.fremantle.nl/',
+            'text_url' => 'Website: Fremantle Jobs',
+            'image' => 'img/portfolio/fremantle.png',
+            'alt_image' => 'Fremantle Jobs',
+            'types' => json_encode(['frontend', 'backend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 9,
+            'title' => 'Blue Circle Casting',
+            'url' => 'https://bluecirclecasting.nl/',
+            'text_url' => 'Website: Blue Circle Casting',
+            'image' => 'img/portfolio/bcc.png',
+            'alt_image' => 'Blue Circle Casting',
+            'types' => json_encode(['frontend', 'backend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 10,
+            'title' => 'Roundtable Shop',
+            'url' => 'https://shop.roundtable.nl/',
+            'text_url' => 'Website: Roundtable Shop',
+            'image' => 'img/portfolio/roundtable.png',
+            'alt_image' => 'Roundtable Shop',
+            'types' => json_encode(['backend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 11,
+            'title' => 'Altempo Perduto',
+            'url' => '',
+            'text_url' => 'Geen publieke URL',
+            'image' => 'img/portfolio/altempo.jpeg',
+            'alt_image' => 'Altempo Perduto',
+            'types' => json_encode(['backend', 'frontend']),
+        ]);
+    }
+}
