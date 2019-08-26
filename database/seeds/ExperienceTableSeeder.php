@@ -44,7 +44,7 @@ class ExperienceTableSeeder extends Seeder
             'stack' => json_encode(['PHP', 'Shopware', 'Smarty', 'CSS', 'HTML']),
             'description' => 'Tijdens deze afstudeerstage ben ik verantwoordelijk geweest voor het bouwen van een nieuwe
                             webshop, hierbij ook het klantcontact afgehandeld en het design naar code vertaald.',
-            'image' => 'img/logo/treshold.jpg',
+            'image' => 'img/logo/treshold.jpeg',
             'alt_image' => 'Treshold Automatisering',
             'types' => json_encode(['internship']),
         ]);

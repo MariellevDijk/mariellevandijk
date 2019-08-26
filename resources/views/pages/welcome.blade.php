@@ -112,25 +112,7 @@
             }
         },
         xAxis: {
-            categories:
-                ['HTML',
-            'PHP',
-            'MYSQL',
-            'CSS',
-            'LESS/SASS',
-            'Bootstrap',
-            'JSON',
-            'jQuery',
-            'Laravel',
-            'Symfony',
-            'JavaScript',
-            'Node.JS',
-            'Angular.JS',
-            'Yii',
-            'OOP',
-            'Functional Documentation',
-            'Agile',
-            'Scrum']
+            categories: @json($skills['categories']),
         },
         legend: {
             reversed: true
@@ -142,13 +124,13 @@
         },
         series: [{
             name: 'Werkervaring',
-            data: [1.5, 1.5, 1.5, 1.5, 1, 1, 1, 1, 0.2, 1, 0, 0, 0.5, 1.5, 0.5, 1.5, 1.5, 1.5]
+            data: @json($skills['workingExperience'])
         }, {
             name: 'Studie',
-            data: [2, 2, 2, 2, 1, 2, 0.5, 0.5, 0, 0, 0.5, 0.5, 0, 0, 2, 2, 0, 0]
+            data: @json($skills['studyExperience'])
         }, {
             name: 'Autodidact',
-            data: [1, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.2, 0, 0, 0, 0.2, 2, 0.5, 0.5]
+            data: @json($skills['selfLearningExperience'])
         }],
         colors: [
             '#0033ab',

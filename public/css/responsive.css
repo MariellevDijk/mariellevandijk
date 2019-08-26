@@ -185,11 +185,6 @@
         margin-bottom: 20px;
     }
 
-    .we-create li {
-        font-size: 13px;
-        padding: 0 0 0 8px
-    }
-
     .header h1 {
         font-size: 28px;
     }
@@ -201,47 +196,6 @@
     .main-section {
         padding: 60px 0 70px;
     }
-
-    /*.main-nav {*/
-        /*display: none;*/
-        /*position: absolute;*/
-        /*left: 0;*/
-        /*width: 100%;*/
-        /*float: none;*/
-        /*background: #fff;*/
-        /*z-index: 99;*/
-        /*border-top: 1px solid #eee;*/
-        /*margin-top: 4em;*/
-    /*}*/
-
-    /*.hamburger {*/
-        /*display: block;*/
-        /*margin: auto;*/
-        /*margin-top: -15px;*/
-    /*}*/
-
-    /*.main-nav li {*/
-        /*display: block;*/
-        /*width: 100%;*/
-        /*height: 50px;*/
-        /*line-height: 10px;*/
-        /*margin: 0px;*/
-    /*}*/
-
-    /*.main-nav li a {*/
-        /*display: block;*/
-        /*padding: 12px 32px;*/
-        /*margin: 4px 0;*/
-        /*border-bottom: 1px solid #f3f3f3;;*/
-    /*}*/
-
-    /*.main-nav .active {*/
-        /*margin-left: 0px;*/
-    /*}*/
-
-    /*.main-nav li a:hover {*/
-        /*color: #7cc576*/
-    /*}*/
 
     .row-education {
         display: block;
@@ -300,10 +254,6 @@
         padding: 60px 0 50px;
     }
 
-    .business-talking h2 {
-        font-size: 36px;
-    }
-
     .contact-info-box {
         margin: 0 0 12px 30px;
         font-size: 12px;
@@ -329,18 +279,8 @@
         font-size: 12px;
     }
 
-    .business-talking a {
-        padding: 10px 25px;
-        font-size: 14px;
-    }
-
     .main-section.contact {
         padding: 60px 0 70px
-    }
-
-    .client-part-haead {
-        font-size: 20px;
-        line-height: 30px;
     }
 
     .link {
@@ -373,11 +313,6 @@
     /****Mobile Portrait 320 ****/
     .contact-info-box {
         margin-left: 0px;
-    }
-
-    .experience-box {
-        display: block;
-        margin-left: -50px;
     }
 
     .experience-box p {
