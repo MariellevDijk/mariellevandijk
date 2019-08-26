@@ -17,11 +17,11 @@ class CreateExperienceTable extends Migration
             $table->bigIncrements('id');
             $table->text('title');
             $table->text('period');
-            $table->json('stack');
+            $table->text('stack');
             $table->text('description');
             $table->text('image');
             $table->text('alt_image');
-            $table->json('types');
+            $table->text('types');
         });
     }
 

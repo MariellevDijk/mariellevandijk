@@ -20,7 +20,7 @@ class CreatePortfolioTable extends Migration
             $table->string('text_url');
             $table->string('image');
             $table->string('alt_image');
-            $table->json('types');
+            $table->text('types');
         });
     }
 
