@@ -13,11 +13,11 @@
                 <div class="experienceContainer wow fadeInUp delay-04s">
                     @foreach($experiences as $experience)
                         <div class="experience-box {{ implode(' ', $experience['types']) }}">
-                            <img src="{{ $experience['image'] }}" alt="{{ $experience['alt_img'] }}">
-                            <h3>{{ $experience['title'] }}</h3>
-                            <h5>{{ $experience['period'] }}</h5>
-                            <h6>{{ implode(', ', $experience['stack']) }}</h6>
-                            <p>{{ $experience['description'] }}</p>
+                            <img class="experience-image" src="{{ $experience['image'] }}" alt="{{ $experience['alt_img'] }}">
+                            <h3 class="experience-title">{{ $experience['title'] }}</h3>
+                            <h5 class="experience-period">{{ $experience['period'] }}</h5>
+                            <h6 class="experience-stack">{{ implode(', ', $experience['stack']) }}</h6>
+                            <p class="experience-description">{{ $experience['description'] }}</p>
                         </div>
                     @endforeach
                 </div>
