@@ -15,7 +15,7 @@
                         interessant vindt, en ben ik gek op gadgets.
                     </p>
                     <p class="about-text">
-                        Wanneer ik buiten de deur ben, sta (of zit) ik bij concerten, met diverse genres. Van Metal tot
+                        Wanneer ik buiten de deur ben, ga ik graag naar concerten, met diverse genres. Van Metal tot
                         Klassiek, niets is te gek voor mij. Ook zou ik mijzelf een vaste klant van de plaatselijke
                         bioscoop noemen.
                     </p>

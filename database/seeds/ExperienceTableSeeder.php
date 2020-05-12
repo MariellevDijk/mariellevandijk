@@ -52,7 +52,7 @@ class ExperienceTableSeeder extends Seeder
         DB::table('experience')->insert([
             'id' => 4,
             'title' => 'PHP Developer',
-            'period' => 'December 2017 - Maart 2018',
+            'period' => 'November 2017 - April 2018',
             'stack' => json_encode(['PHP', 'Yii', 'Bootstrap', 'MySQL', 'Git']),
             'description' => 'Samen met het WOM ( Work Order Manager ) team nieuwe features en improvements gemaakt op de
                             huidige applicatie.',
@@ -61,26 +61,38 @@ class ExperienceTableSeeder extends Seeder
             'types' => json_encode(['job']),
         ]);
 
-        DB::table('experience')->insert([
-            'id' => 5,
-            'title' => 'PHP Developer',
-            'period' => 'Juli 2018',
-            'stack' => json_encode(['PHP', 'Magento 1', 'Magento 2', 'CSS', 'HTML']),
-            'description' => 'Training in Magento 1 gevolgd en een aantal shops veiligheidsupgrades van Magento geïmplementeerd.',
-            'image' => 'img/logo/experius.jpg',
-            'alt_image' => 'Experius',
-            'types' => json_encode(['job']),
-        ]);
+//        DB::table('experience')->insert([
+//            'id' => 5,
+//            'title' => 'PHP Developer',
+//            'period' => 'Juli 2018',
+//            'stack' => json_encode(['PHP', 'Magento 1', 'Magento 2', 'CSS', 'HTML']),
+//            'description' => 'Training in Magento 1 gevolgd en een aantal shops veiligheidsupgrades van Magento geïmplementeerd.',
+//            'image' => 'img/logo/experius.jpg',
+//            'alt_image' => 'Experius',
+//            'types' => json_encode(['job']),
+//        ]);
 
         DB::table('experience')->insert([
             'id' => 6,
             'title' => 'PHP Developer',
-            'period' => 'December 2018 - Juni 2019',
+            'period' => 'November 2018 - Augustus 2019',
             'stack' => json_encode(['PHP', 'Laravel', 'Mysql', 'Git']),
             'description' => 'Verantwoordelijk voor het bouwen van diverse sites en webshops, met Laravel in de spotlight.
                             Mijn focus lag op de backend van de betreffende applicaties.',
             'image' => 'img/logo/ifresh.svg',
             'alt_image' => 'iFresh Software Development',
+            'types' => json_encode(['job']),
+        ]);
+
+        DB::table('experience')->insert([
+            'id' => 7,
+            'title' => 'PHP Developer',
+            'period' => 'Oktober 2019 - April 2020',
+            'stack' => json_encode(['PHP', 'Yii', 'Mysql', 'SVN']),
+            'description' => 'Ontwikkeling van een Online Afspraken omgeving op maat voor een grote klant. 
+                              Daarnaast nieuwe features uitgedacht en tot realisatie gebracht in het standaard Online Afspraken systeem',
+            'image' => 'img/logo/onlineafspraken.png',
+            'alt_image' => 'Online Afspraken B.V.',
             'types' => json_encode(['job']),
         ]);
 

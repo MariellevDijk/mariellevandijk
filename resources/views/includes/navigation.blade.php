@@ -1,5 +1,5 @@
 <nav id="main-nav-outer">
-    <ul class="nav nav-pills main-nav">
+    <ul class="nav nav-pills main-nav nav-justified">
         <li class="active nav-item"><a href="#werkervaring">Werkervaring</a></li>
         <li class="nav-item"><a href="#opleidingen">Opleidingen</a></li>
         <li class="nav-item"><a href="#portfolio">Portfolio</a></li>

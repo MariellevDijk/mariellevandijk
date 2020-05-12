@@ -14,7 +14,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 1,
             'skill' => 'HTML',
-            'years_experience' => 1.5,
+            'years_experience' => 2,
             'type' => 'werkervaring',
         ]);
 
@@ -37,7 +37,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 4,
             'skill' => 'PHP',
-            'years_experience' => 1.5,
+            'years_experience' => 2,
             'type' => 'werkervaring',
         ]);
 
@@ -60,7 +60,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 7,
             'skill' => 'MySQL',
-            'years_experience' => 1.5,
+            'years_experience' => 2,
             'type' => 'werkervaring',
         ]);
 
@@ -83,7 +83,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 10,
             'skill' => 'CSS',
-            'years_experience' => 1.5,
+            'years_experience' => 2,
             'type' => 'werkervaring',
         ]);
 
@@ -106,7 +106,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 13,
             'skill' => 'LESS/SASS',
-            'years_experience' => 1,
+            'years_experience' => 1.5,
             'type' => 'werkervaring',
         ]);
 
@@ -290,7 +290,7 @@ class SkillTableSeeder extends Seeder
         DB::table('skills')->insert([
             'id' => 37,
             'skill' => 'Yii',
-            'years_experience' => 0.5,
+            'years_experience' => 1,
             'type' => 'werkervaring',
         ]);
 

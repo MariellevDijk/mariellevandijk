@@ -14,7 +14,6 @@
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/font-awesome.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="css/print.css" media="print"/>
 
 <script src="js/jquery.1.8.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
@@ -27,3 +26,5 @@
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

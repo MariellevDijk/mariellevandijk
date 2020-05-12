@@ -16,6 +16,7 @@
                             jaar.</p>
                     </div>
                 </div>
+                <br>
                 <div class="featured-box">
                     <div class="featured-box-col1 wow fadeInRight delay-04s">
                     </div>

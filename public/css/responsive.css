@@ -11,7 +11,7 @@
         background: #fff;
         z-index: 99;
         border-top: 1px solid #eee;
-        margin-top: 4em;
+        margin-top: 4em !important;
     }
 
     .hamburger {
@@ -19,15 +19,16 @@
     }
 
     .res-nav_click {
-        display: block;
+        display: block !important;
     }
 
     .main-nav li {
+        background: #fff !important;
         display: block;
-        width: 100%;
-        height: 50px;
-        line-height: 10px;
-        margin: 0px;
+        width: 100% !important;
+        height: 50px !important;
+        line-height: 10px !important;
+        margin: 0px !important;
     }
 
     .main-nav li a {

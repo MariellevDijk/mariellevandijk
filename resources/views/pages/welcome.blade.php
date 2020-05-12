@@ -24,54 +24,6 @@
 
 @include('includes.footer')
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <h4 style="margin-bottom: 20px;">Vul hier je gegevens in om mijn CV te ontvangen.</h4>
-                <form id="ajax-contact" method="post" action="mailer.php">
-                    <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">Naam</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputName" placeholder="Naam">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputEmail" class="col-sm-2 col-form-label">E-mail</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
-                        </div>
-                    </div>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <label class="col-form-label col-sm-2 pt-0">Type</label>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="cv-name" value="cv-name">
-                                    <label class="form-check-label" for="cv-name">CV [.pdf]</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="cv-anonymous"
-                                           value="cv-anonymous">
-                                    <label class="form-check-label" for="cv-anonymous">Anoniem CV [.pdf]</label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <div class="modal-footer" style="height: 50px;">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Vraag op</button>
-                        </div>
-                        <button type="button" class="btn btn-secondary btn-outline-secondary" data-dismiss="modal">Sluit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
 <script type="text/javascript">
     $(window).load(function () {
 
@@ -215,7 +167,5 @@
         }
     }
 </script>
-
 </body>
-
 </html>

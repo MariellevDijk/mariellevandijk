@@ -114,10 +114,20 @@ class PortfolioTableSeeder extends Seeder
         DB::table('portfolio')->insert([
             'id' => 11,
             'title' => 'Altempo Perduto',
-            'url' => '',
-            'text_url' => 'Geen publieke URL',
+            'url' => 'https://booking.altempoperduto.com/',
+            'text_url' => 'Website: Altempo perduto',
             'image' => 'img/portfolio/altempo.jpeg',
             'alt_image' => 'Altempo Perduto',
+            'types' => json_encode(['backend', 'frontend']),
+        ]);
+
+        DB::table('portfolio')->insert([
+            'id' => 12,
+            'title' => 'Online Afspraken systeem',
+            'url' => 'https://www.onlineafspraken.nl/',
+            'text_url' => 'Website: Online Afspraken',
+            'image' => 'img/portfolio/oa.png',
+            'alt_image' => 'Online Afspraken',
             'types' => json_encode(['backend', 'frontend']),
         ]);
     }
