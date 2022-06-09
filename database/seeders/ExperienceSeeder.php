@@ -16,22 +16,6 @@ class ExperienceSeeder extends Seeder
     {
         DB::table('experience')->insert(
             [
-                'id' => 1,
-                'title' => 'Eerstejaars Stage PHP Developer',
-                'period' => 'Mei 2015 - Juli 2015',
-                'stack' => json_encode(['PHP', 'MODX', 'CSS', 'HTML']),
-                'description' => 'Binnen Designbase heb ik meegewerkt aan diverse projecten, met een focus op het framework
-                            MODX. Aan het eind van deze stage heb ik een plug-in
-                            opgeleverd die het bedrijf van pas zou komen.',
-                'image' => 'img/logo/designbase.svg',
-                'alt_image' => 'Designbase',
-                'types' => json_encode(['internship']),
-                'company' => 'designbase',
-            ]
-        );
-
-        DB::table('experience')->insert(
-            [
                 'id' => 2,
                 'title' => 'Stage PHP Developer',
                 'period' => 'Augustus 2015 - December 2015',
@@ -112,7 +96,7 @@ class ExperienceSeeder extends Seeder
                 'period' => 'Oktober 2020 - Heden',
                 'stack' => json_encode(['PHP', 'Laravel', 'Mysql', 'BitBucket', 'AWS']),
                 'description' => 'Ontwikkeling en verbetering van het OrderBuddy systeem, dat voor horeca mogelijkheden biedt om online en op lokatie orders van klanten aan te nemen en te verwerken.
-                            Daarnaast doorontwikkeling van een online reserveringssysteem voor verrassend uit eten.',
+                            Daarnaast doorontwikkeling van een online reserveringssysteem voor een diner verrassingsconcept.',
                 'image' => 'img/logo/foodticket.png',
                 'alt_image' => 'Foodticket',
                 'types' => json_encode(['job']),

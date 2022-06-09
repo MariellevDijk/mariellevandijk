@@ -30800,12 +30800,7 @@ particlesJS("particles-js", {
 });
 
 
-tiny_swiper__WEBPACK_IMPORTED_MODULE_1___default().use([]);
 window.Highcharts = (highcharts_highcharts__WEBPACK_IMPORTED_MODULE_0___default());
-new (tiny_swiper__WEBPACK_IMPORTED_MODULE_1___default())(".swiper", {
-  loop: true,
-  centeredSlides: true
-});
 $('#werkgevers').on('click', function () {
   $('.job').show();
   $('.internship').hide();
@@ -30878,7 +30873,7 @@ highcharts_highcharts__WEBPACK_IMPORTED_MODULE_0___default().chart('containerGra
       color: '#fff'
     }
   }],
-  colors: ['#0033ab', '#9a3fa1', '#d9006f'],
+  colors: ['#0b379a', '#833e88', '#ab0d5e'],
   chart: {
     polar: false,
     backgroundColor: 'none',

@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="swiper testimonial-wrapper ">
+                <div class="testimonial-wrapper ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide single-testimonial">
                             <div class="row">

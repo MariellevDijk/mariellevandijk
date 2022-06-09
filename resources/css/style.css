@@ -151,7 +151,7 @@ img {
 }
 
 .white-btn {
-    background: #fff;
+    background: #EBEBEB;
     color: #070707;
 }
 
@@ -161,11 +161,11 @@ img {
 
 .red-btn {
     background: #8C229C;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .red-btn:hover {
-    color: #fff;
+    color: #EBEBEB;
 }
 
 /*=================================
@@ -174,7 +174,7 @@ img {
 .seaction-heading h2 {
     font-size: 50px;
     font-weight: 700;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -201,7 +201,7 @@ img {
 =============================== */
 .cookie-consent {
     background-color: #de87e8 !important;
-    color: #ffffff;
+    color: #EBEBEBEBEBEB;
     font-size: 18px;
     height: 80px;
     position: fixed;
@@ -265,7 +265,7 @@ img {
 .nav-button .btn-line {
     width: 38px;
     height: 2px;
-    background: #fff;
+    background: #EBEBEB;
     display: flex;
     margin-bottom: 10px;
 }
@@ -308,14 +308,14 @@ img {
     right: 50px;
     top: 40px;
     font-size: 40px;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .side-nav-wrapper ul li a {
     display: block;
     padding: 40px 8rem;
     font-size: 20px;
-    color: #fff;
+    color: #EBEBEB;
     text-transform: uppercase;
     transition: 0.3s;
     position: relative;
@@ -353,7 +353,7 @@ img {
 
 .single-slider-content h1 {
     font-size: 150px;
-    color: #fff;
+    color: #EBEBEB;
     font-family: "Josefin Sans", sans-serif;
     padding-left: 50px;
     letter-spacing: 50px;
@@ -363,7 +363,7 @@ img {
 
 .single-slider-content h4 {
     font-weight: 400;
-    color: #fff;
+    color: #EBEBEB;
     font-size: 28px;
     line-height: 49px;
     font-family: "Open sans", sans-serif;
@@ -377,7 +377,7 @@ img {
 
 .blog-page .single-slider-content ul li a,
 .single-slider-content ul li a {
-    color: #fff;
+    color: #EBEBEB;
     font-size: 30px;
     display: inline-block;
     margin: 0 15px;
@@ -403,7 +403,7 @@ img {
 .about-content h2 {
     font-size: 50px;
     font-weight: 700;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -422,6 +422,7 @@ img {
 .about-content p {
     font-size: 19px;
     color: #a355b4;
+    opacity: 0.95;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 20px;
@@ -437,7 +438,7 @@ img {
     font-family: "Dosis", sans-serif;
     font-weight: normal;
     line-height: 32px;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .about-personal-info ul li .info-title {
@@ -457,12 +458,12 @@ img {
 
 .about-btn .single-btn.red-btn:hover {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #EBEBEB;
 }
 
 .about-btn .single-btn.white-btn:hover {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #EBEBEB;
+    color: #EBEBEB;
     background: transparent;
 }
 
@@ -509,7 +510,7 @@ img {
 .single-skill-experience .skill-title {
     font-size: 35px;
     font-weight: 700;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
@@ -532,7 +533,7 @@ img {
     bottom: 0;
     right: 0;
     font-size: 14px;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 /*==================================
@@ -559,17 +560,18 @@ img {
 .single-service h3 {
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     margin-bottom: 15px;
 }
 
 .single-service p {
     color: #595875;
-    font-size: 16px;
-    line-height: 36px;
-    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
     margin-bottom: 15px;
+
 }
 
 .date-worked {
@@ -589,7 +591,7 @@ text {
 }
 
 .werkervaring-nav li {
-    color: #fff;
+    color: #EBEBEB;
     display: inline-block;
     text-transform: uppercase;
     font-size: 18px;
@@ -616,7 +618,7 @@ text {
 }
 
 .portfolio-nav li {
-    color: #fff;
+    color: #EBEBEB;
     display: inline-block;
     text-transform: uppercase;
     font-size: 18px;
@@ -650,6 +652,7 @@ text {
     height: 200px;
     border: none;
     perspective: 1000px;
+    opacity: 0.8;
 }
 
 /* This container is needed to position the front and back side */
@@ -679,14 +682,14 @@ text {
 /* Style the back side */
 .flip-card-back {
     background-color: #8C229C;
-    color: white;
+    color: #EBEBEB;
     transform: rotateY(180deg);
     padding: 40px 20px 20px 20px;
     font-family: "Josefin Sans", sans-serif;
 }
 
 .link {
-    color: white;
+    color: #EBEBEB;
     padding-bottom: 10px;
 }
 
@@ -720,7 +723,7 @@ text {
 
 .single-counter .counter-number {
     font-size: 70px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 100;
     line-height: 1;
 }
@@ -744,12 +747,12 @@ text {
 .single-skill .skill-title {
     font-size: 25px;
     font-weight: 700;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     font-family: "Marielle", sans-serif;
     text-transform: uppercase;
     margin-left: 15px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #EBEBEB;
 }
 
 .single-skill .skill-content {
@@ -762,7 +765,7 @@ text {
     list-style-type: none;
     font-family: Marielle, sans-serif;
     color: #d3d3d3;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /*==================================
@@ -793,10 +796,6 @@ text {
     padding: 30px;
 }
 
-.swiper-slide {
-    width: 1100px;
-}
-
 .testimonial-content {
     position: center;
     height: 100%;
@@ -818,7 +817,7 @@ text {
     font-family: "Dosis", sans-serif;
     font-size: 32px;
     line-height: 44px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -831,7 +830,7 @@ text {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 3px;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     margin-bottom: 11px;
 }
@@ -855,33 +854,6 @@ text {
     font-size: 35px;
     line-height: 1;
 }
-
-/*==================================
-    10. SUBSCRIBE STYLE
-====================================*/
-.subscribe-content input[type="email"] {
-    background: #171623;
-    border: 0;
-    padding: 25px 35px;
-    color: #fff;
-    display: inline-block;
-    width: 90%;
-    text-align: center;
-    text-transform: uppercase;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.subscribe-content input[type="submit"] {
-    font-size: 16px;
-    border: 0;
-    padding: 25px 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000;
-    background: #fff;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-
 /*===================================
     11. BLOG STYLE
 =====================================*/
@@ -909,7 +881,7 @@ text {
 .single-blog .blog-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: #EBEBEB;
     line-height: 1;
     margin-bottom: 10px;
 }
@@ -977,7 +949,7 @@ text {
 
 .blog-details-content h3 {
     font-size: 32px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px;
@@ -1013,7 +985,7 @@ text {
 
 .blog-comment h3 {
     font-size: 32px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 30px;
@@ -1048,7 +1020,7 @@ text {
 
 .comment-user-name h4 {
     font-size: 18px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 700;
     line-height: 1;
 }
@@ -1070,7 +1042,7 @@ text {
     line-height: 1;
     margin-left: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .comment-text p {
@@ -1082,7 +1054,7 @@ text {
 
 .blog-comment-form h3 {
     font-size: 32px;
-    color: #fff;
+    color: #EBEBEB;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 30px;
@@ -1096,7 +1068,7 @@ text {
     background: #1b1a28;
     border: 0;
     margin-bottom: 30px;
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .blog-comment-form form input[type="submit"] {
@@ -1104,7 +1076,7 @@ text {
     border: 0;
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: #EBEBEB;
     text-transform: uppercase;
     padding: 20px 50px;
     cursor: pointer;
@@ -1114,134 +1086,18 @@ text {
 
 .blog-comment-form form input[type="submit"]:hover {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #EBEBEB;
 }
 
 /*==================================
     12. CONTACT STYLE
 ====================================*/
-.contact-form-content {
-    background: #1b1a28;
-    padding: 90px 60px;
-    margin-right: -15px;
-}
-
-.contact-form-content input[type="text"],
-.contact-form-content input[type="email"] {
-    width: 100%;
-    border: 0;
-    background: #130f22;
-    padding: 20px 30px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 18px;
-}
-
-.contact-form-content textarea {
-    font-size: 18px;
-    width: 100%;
-    height: 202px;
-    color: #fff;
-    padding: 20px 30px;
-    background: #130f22;
-    border: none;
-    margin-bottom: 30px;
-}
-
-.contact-form-content input[type="text"]::placeholder,
-.contact-form-content input[type="email"]::placeholder,
-.contact-form-content textarea::placeholder {
-    color: #303039;
-    opacity: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.contact-form-content input[type="text"]::-ms-input-placeholder,
-.contact-form-content input[type="email"]::-ms-input-placeholder,
-.contact-form-content textarea::-ms-input-placeholder {
-    color: #303039;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.contact-form-content input[type="text"]:-ms-input-placeholder,
-.contact-form-content input[type="email"]:-ms-input-placeholder,
-.contact-form-content textarea:-ms-input-placeholder {
-    color: #303039;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.contact-form-content input[type="submit"] {
-    background: #8C229C;
-    border: 0;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 20px 50px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    transition: all 0.3s ease;
-}
-
-.contact-form-content input[type="submit"]:hover {
-    background: transparent;
-    border: 1px solid #fff;
-}
-
-.contact-info-area {
-    background-image: url(../../public/img/bg/contact-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.contact-info-content {
-    padding: 130px 78px;
-}
-
-.single-contact-info {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 89px;
-}
-
-.single-contact-info:last-child {
-    margin-bottom: 0;
-}
-
-.contact-info-icon {
-    flex: 1;
-}
-
-.contact-info-icon i {
-    font-size: 59px;
-    color: #8C229C;
-}
-
-.contact-info-details {
-    flex: 4;
-}
-
-.contact-info-details h4 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    font-family: "Dosis", sans-serif;
-    line-height: 1;
-    margin-bottom: 30px;
-}
-
-.contact-info-details p {
-    color: #474758;
-    font-size: 23px;
-    font-weight: normal;
-}
-
-.LI-profile-badge iframe {
-    height: 100%
+.contact-block p {
+    color: #595875;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 48px;
 }
 
 /*==================================
@@ -1255,7 +1111,7 @@ text {
 }
 
 .copyrights p a {
-    color: #fff;
+    color: #EBEBEB;
 }
 
 .copyrights p a:hover {
@@ -1267,7 +1123,7 @@ text {
 }
 
 .footer-social-icon ul li a {
-    color: #fff;
+    color: #EBEBEB;
     font-size: 22px;
     margin-right: 25px;
 }
@@ -1306,7 +1162,7 @@ text {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #EBEBEB;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -1350,7 +1206,7 @@ text {
     background: #8C229C;
     right: 30px;
     bottom: 0px;
-    color: #fff;
+    color: #EBEBEB;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     font-size: 20px;
     width: 40px;

@@ -51,8 +51,8 @@
                     <span class="skill-title">{{ @trans('general.learninggoals') }}</span>
                     <div class="skill-content">
                         <div class="row">
-                            <div class="col-8 col-sm-6">
-                                <li>Continuous Integration (CI)</li>
+                            <div class="col-8 col-sm-6 smalltext">
+                                <li >Continuous Integration (CI)</li>
                                 <li>Test Driven Development (TDD)</li>
                                 <li>Scalability</li>
                             </div>

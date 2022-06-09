@@ -29,8 +29,8 @@ return [
     =======================*/
 
     'aboutme' => 'About me',
-    'aboutme-text' => 'I’m an enthusiastic PHP backend developer with 3+ years of experience, eager to learn more every day. Laravel is my most leaned to framework to build web applications with, though I also have some experience using Symfony and Yii. In my spare time I like experimenting with other languages, like learning to use Swift to build iOS apps.',
-    'aboutme-text2' => 'I like working in scrum teams, preferably remotely, but on-site is negotiable depending on location. I shine the best when I have some uninterrupted time to myself, in order to properly focus on the task at hand.',
+    'aboutme-text' => 'I’m an enthusiastic PHP backend developer with 4+ years of experience, eager to learn more every day. I lean towards Laravel to build applications, though I also have some experience using Symfony and Yii. In my spare time I like to experiment with other languages. For example, using Swift to build iOS apps.',
+    'aboutme-text2' => 'I like working in scrum teams, and I prefer remote work. On-site is negotiable, depending on location. I perform the best when I have some uninterrupted time to myself, in order to properly focus on the task at hand.',
     'aboutme-text3' => 'Once you get to know me, you’ll realise there’s much more to me than the woman behind her laptop. Sports and creative outlets, concerts and movies are all favourite pastimes of mine.',
     'name' => 'Name',
     'myName' => 'Mariëlle van Dijk',
@@ -40,6 +40,7 @@ return [
     'locationPlace' => 'Utrecht, the Netherlands',
     'linkedin' => 'LinkedIn',
     'hireme' => 'Hire me',
+    'contactme' => 'Contact me',
 
     /*=====================
             05. EXPERIENCE
@@ -84,12 +85,6 @@ return [
         'stack' => 'PHP, CSS, HTML',
         'period' => 'August 2015 - December 2015',
         'description' => 'Implementing design to product for NS Serviceshops on big train stations. Besides that, I co-developed and tested an application for Right to Play',
-    ],
-    'designbase' => [
-        'title' => 'Internship Web Developer',
-        'stack' => 'PHP, MODX, CSS, HTML',
-        'period' => 'May 2015 - July 2015',
-        'description' => "Being part of Designbase, I've collaborated on diverse projects, with a focus on MODX applications. At the end of this internship, I shipped a plug-in that would help the company in the future.",
     ],
 
     /*=====================
@@ -136,6 +131,6 @@ return [
     ],
     'rohan' => [],
 
-    'contact-me' => "My preferred contact method is via LinkedIn or e-mail, so if you want to know more, don't hesitate to reach out to me.",
+    'contact-me' => "If you wish to contact me, you can do so through LinkedIn or e-mail. Don't hesitate to reach out to me if you want to know more.",
 
 ];
