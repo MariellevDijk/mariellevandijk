@@ -138,6 +138,7 @@ particlesJS("particles-js", {
 
 import Highcharts from 'highcharts/highcharts';
 import Swiper from 'tiny-swiper';
+
 window.Highcharts = Highcharts;
 $('#werkgevers').on('click', function () {
     $('.job').show();
@@ -154,7 +155,6 @@ $('#all').on('click', function () {
     $('.internship').show();
 });
 
-// document.getElementById('werkgevers').click();
 Highcharts.chart('containerGraph', {
     title: {
         text: 'Ervaring in jaren / Experience in years',

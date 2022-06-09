@@ -30812,8 +30812,7 @@ $('#internship').on('click', function () {
 $('#all').on('click', function () {
   $('.job').show();
   $('.internship').show();
-}); // document.getElementById('werkgevers').click();
-
+});
 highcharts_highcharts__WEBPACK_IMPORTED_MODULE_0___default().chart('containerGraph', {
   title: {
     text: 'Ervaring in jaren / Experience in years',
