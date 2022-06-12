@@ -1,9 +1,9 @@
-<section id="portfolio" data-scroll-index="3" class="portfolio-area theme-bg p-tb-100">
+<section id="portfolio" data-scroll-index="3" class="portfolio-area theme-bg p-tb-50">
     <div class="container">
-        <div class="row pb-90 pt-90">
+        <div class="row">
             <div class="col-xl-7">
-                <div class="seaction-heading">
-                    <h2>Portfolio <span></span></h2>
+                <div class="section-heading">
+                    <h2>Portfolio <span class="point-style"></span></h2>
                 </div>
             </div>
         </div>

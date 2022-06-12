@@ -17,7 +17,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 1,
-                'skill' => 'HTML/BLADE/TWIG/SMARTY',
+                'skill' => 'BLADE/TWIG',
                 'years_experience' => 4.5,
                 'type' => 'werkervaring',
             ]
@@ -26,7 +26,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 2,
-                'skill' => 'HTML/BLADE/TWIG/SMARTY',
+                'skill' => 'BLADE/TWIG',
                 'years_experience' => 3,
                 'type' => 'studie',
             ]
@@ -35,7 +35,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 3,
-                'skill' => 'HTML/BLADE/TWIG/SMARTY',
+                'skill' => 'BLADE/TWIG',
                 'years_experience' => 1,
                 'type' => 'autodidact',
             ]
@@ -46,7 +46,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 4,
-                'skill' => 'LESS/SASS/CSS',
+                'skill' => 'SCSS',
                 'years_experience' => 4,
                 'type' => 'werkervaring',
             ]
@@ -55,7 +55,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 5,
-                'skill' => 'LESS/SASS/CSS',
+                'skill' => 'SCSS',
                 'years_experience' => 2.5,
                 'type' => 'studie',
             ]
@@ -64,7 +64,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 6,
-                'skill' => 'LESS/SASS/CSS',
+                'skill' => 'SCSS',
                 'years_experience' => 1,
                 'type' => 'autodidact',
             ]

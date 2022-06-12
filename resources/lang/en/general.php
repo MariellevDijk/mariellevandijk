@@ -40,7 +40,7 @@ return [
     'locationPlace' => 'Utrecht, the Netherlands',
     'linkedin' => 'LinkedIn',
     'hireme' => 'Hire me',
-    'contactme' => 'Contact me',
+    'contactme' => 'Email me',
 
     /*=====================
             05. EXPERIENCE

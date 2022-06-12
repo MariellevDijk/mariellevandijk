@@ -79,6 +79,16 @@
     font-size: 45px;
   }
 
+  .learning-goals {
+      max-height: 300px !important;
+      height: 250px !important;
+  }
+
+  .learning-goals .skill-content .row {
+      width: 410px !important;
+      margin-left: 5px !important;
+  }
+
   .testimonial-content p {
     font-size: 18px;
     line-height: 36px;
@@ -300,6 +310,14 @@
 
   .comment-reply {
     margin-left: 15px;
+  }
+
+  .flip-card {
+      margin: 0 auto;
+  }
+
+  .point-style {
+      display: none !important;
   }
 }
 

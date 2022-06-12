@@ -1,8 +1,8 @@
-<section id="skillmatrix" data-scroll-index="5" class="skillmatrix-area theme-bg p-tb-100">
+<section id="skillmatrix" data-scroll-index="5" class="skillmatrix-area theme-bg p-tb-50">
     <div class="container">
-        <div class="row pb-80 pt-90">
-            <div class="col-xl-7 seaction-heading">
-                <h2>Skillmatrix <span></span></h2>
+        <div class="row">
+            <div class="col-xl-7 section-heading">
+                <h2>Skillmatrix <span class="point-style"></span></h2>
             </div>
         </div>
         <div id="containerGraph" style="height: 700px !important;"></div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-xl-8 col-lg-4 col-md-6">
-                <div class="single-skill">
+                <div class="single-skill learning-goals">
                     <span class="skill-title">{{ @trans('general.learninggoals') }}</span>
                     <div class="skill-content">
                         <div class="row">

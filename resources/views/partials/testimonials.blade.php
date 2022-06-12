@@ -1,8 +1,8 @@
-<section id="testimonials" data-scroll-index="5" class="testimonial-area theme-bg p-tb-100">
+<section id="testimonials" data-scroll-index="5" class="testimonial-area theme-bg p-tb-50">
     <div class="container">
-        <div class="row pb-80 pt-90">
-            <div class="col-xl-7 seaction-heading">
-                <h2>Testimonials <span></span></h2>
+        <div class="row">
+            <div class="col-xl-7 section-heading">
+                <h2>Testimonials <span class="point-style"></span></h2>
             </div>
         </div>
         <div class="row">

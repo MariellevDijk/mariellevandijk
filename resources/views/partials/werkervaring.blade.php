@@ -1,9 +1,9 @@
-<section id="werkervaring" data-scroll-index="2" class="service-area theme-bg p-tb-100">
+<section id="werkervaring" data-scroll-index="2" class="service-area theme-bg p-tb-50">
     <div class="container">
-        <div class="row pb-90 pt-90">
+        <div class="row">
             <div class="col-xl-7">
-                <div class="seaction-heading">
-                    <h2>{{ @trans('general.experience') }}<span></span></h2>
+                <div class="section-heading">
+                    <h2>{{ @trans('general.experience') }}<span class="point-style"></span></h2>
                 </div>
             </div>
         </div>

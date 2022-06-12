@@ -1,11 +1,11 @@
-<section id="werkervaring" data-scroll-index="1" class="about-area theme-bg p-tb-100">
+<section id="werkervaring" data-scroll-index="1" class="about-area theme-bg p-tb-50">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="about-content">
-                    <h2>{{ @trans('general.aboutme') }}<span></span></h2>
+                    <h2>{{ @trans('general.aboutme') }}<span class="point-style"></span></h2>
                     <p style="font-size: 20px">
-                    {{ @trans('general.aboutme-text') }}<br>
+                    {{ @trans('general.aboutme-text') }}<br><br>
                     {{ @trans('general.aboutme-text2') }}<br>
                     {{ @trans('general.aboutme-text3') }}
                     </p>

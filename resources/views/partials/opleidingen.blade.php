@@ -1,9 +1,9 @@
-<section id="opleidingen" data-scroll-index="6" class="blog-area p-tb-100 theme-bg">
+<section id="opleidingen" data-scroll-index="6" class="blog-area p-tb-50 theme-bg">
     <div class="container">
-        <div class="row pb-90 pt-90">
+        <div class="row">
             <div class="col-xl-7">
-                <div class="seaction-heading">
-                    <h2>{{ @trans('general.education') }}<span></span></h2>
+                <div class="section-heading">
+                    <h2>{{ @trans('general.education') }}<span class="point-style"></span></h2>
                 </div>
             </div>
         </div>

@@ -4,27 +4,23 @@ require('popper.js');
 require('bootstrap');
 require('particles.js');
 require('tiny-swiper');
-
-
 require('magnific-popup');
 require('waypoints/src/waypoint')
-require('jquery.counterup');
-
-
 require('scrollit');
 require('active');
 require('highcharts');
 
+
 /* -----------------------------------------------
 /* How to use? : Check the GitHub README
 /* ----------------------------------------------- */
-
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
 /*
 particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 */
+
 particlesJS("particles-js", {
     "particles": {
         "number": {
@@ -35,7 +31,7 @@ particlesJS("particles-js", {
             }
         },
         "color": {
-            "value": "#ffffff"
+            "value": "#d0bebe"
         },
         "shape": {
             "type": "circle",
