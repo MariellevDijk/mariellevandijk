@@ -16,21 +16,6 @@ class ExperienceSeeder extends Seeder
     {
         DB::table('experience')->insert(
             [
-                'id' => 2,
-                'title' => 'Stage PHP Developer',
-                'period' => 'Augustus 2015 - December 2015',
-                'stack' => json_encode(['PHP', 'CSS', 'HTML']),
-                'description' => 'Deze stage omvatte het implementeren van design naar product voor de NS Servicewinkels op
-                            grote stations. Daarnaast heb ik meeontwikkeld aan een applicatie voor Right to Play.',
-                'image' => 'img/logo/heuvelman.png',
-                'alt_image' => 'Heuvelman Sound & Vision',
-                'types' => json_encode(['internship']),
-                'company' => 'heuvelman',
-            ]
-        );
-
-        DB::table('experience')->insert(
-            [
                 'id' => 3,
                 'title' => 'Afstudeer Stage PHP Developer',
                 'period' => 'November 2016 - April 2017',
@@ -93,7 +78,7 @@ class ExperienceSeeder extends Seeder
             [
                 'id' => 8,
                 'title' => 'Fullstack Developer',
-                'period' => 'Oktober 2020 - Heden',
+                'period' => 'Oktober 2020 - Juli 2022',
                 'stack' => json_encode(['PHP', 'Laravel', 'Mysql', 'BitBucket', 'AWS']),
                 'description' => 'Ontwikkeling en verbetering van het OrderBuddy systeem, dat voor horeca mogelijkheden biedt om online en op lokatie orders van klanten aan te nemen en te verwerken.
                             Daarnaast doorontwikkeling van een online reserveringssysteem voor een diner verrassingsconcept.',

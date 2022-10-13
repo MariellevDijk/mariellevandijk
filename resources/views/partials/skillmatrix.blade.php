@@ -30,9 +30,9 @@
                 <div class="single-skill">
                     <span class="skill-title">{{ @trans('general.methods') }}</span>
                     <div class="skill-content">
-                        <li>Agile</li>
+                        <li>Agile/Scrum</li>
                         <li>Scrum</li>
-                        <li>OOP</li>
+                        <li>Unit testing</li>
                     </div>
                 </div>
             </div>

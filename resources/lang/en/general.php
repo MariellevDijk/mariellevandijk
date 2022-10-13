@@ -29,7 +29,7 @@ return [
     =======================*/
 
     'aboutme' => 'About me',
-    'aboutme-text' => 'I’m an enthusiastic PHP backend developer with 4+ years of experience, eager to learn more every day. I lean towards Laravel to build applications, though I also have some experience using Symfony and Yii. In my spare time I like to experiment with other languages. For example, using Swift to build iOS apps.',
+    'aboutme-text' => 'I’m an enthusiastic PHP backend developer with 5 years of experience, eager to learn more every day. I lean towards Laravel to build applications, though I also have some experience using Symfony and Yii. In my spare time I like to experiment with other languages. For example, using Swift to build iOS apps.',
     'aboutme-text2' => 'I like working in scrum teams, and I prefer remote work. On-site is negotiable, depending on location. I perform the best when I have some uninterrupted time to myself, in order to properly focus on the task at hand.',
     'aboutme-text3' => 'Once you get to know me, you’ll realise there’s much more to me than the woman behind her laptop. Sports and creative outlets, concerts and movies are all favourite pastimes of mine.',
     'name' => 'Name',
@@ -53,7 +53,7 @@ return [
     'foodticket' => [
         'title' => 'Fullstack Developer',
         'stack' => 'PHP, Laravel, MySQL, BitBucket, AWS',
-        'period' => 'October 2020 - Current',
+        'period' => 'October 2020 - July 2022',
         'description' => 'Development and improvement of the OrderBuddy system, that offers ways to take and process orders (both online and on-site) for restaurants. Also developed an online reservation system for a surprising dinner.',
     ],
     'onlineafspraken' => [
@@ -79,12 +79,6 @@ return [
         'stack' => 'PHP, Shopware, Smarty, ePages, CSS, HTML',
         'period' => 'November 2016 - April 2017',
         'description' => "In this internship, I've been responsible for building multiple webshops. Part of this was handeling customer requests and translating design to code",
-    ],
-    'heuvelman' => [
-        'title' => 'Internship Web Developer',
-        'stack' => 'PHP, CSS, HTML',
-        'period' => 'August 2015 - December 2015',
-        'description' => 'Implementing design to product for NS Serviceshops on big train stations. Besides that, I co-developed and tested an application for Right to Play',
     ],
 
     /*=====================

@@ -17,7 +17,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 1,
-                'skill' => 'BLADE/TWIG',
+                'skill' => 'Markup/Templating',
                 'years_experience' => 4.5,
                 'type' => 'werkervaring',
             ]
@@ -26,7 +26,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 2,
-                'skill' => 'BLADE/TWIG',
+                'skill' => 'Markup/Templating',
                 'years_experience' => 3,
                 'type' => 'studie',
             ]
@@ -35,7 +35,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 3,
-                'skill' => 'BLADE/TWIG',
+                'skill' => 'Markup/Templating',
                 'years_experience' => 1,
                 'type' => 'autodidact',
             ]
@@ -46,8 +46,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 4,
-                'skill' => 'SCSS',
-                'years_experience' => 4,
+                'skill' => 'PHP',
+                'years_experience' => 5,
                 'type' => 'werkervaring',
             ]
         );
@@ -55,35 +55,6 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 5,
-                'skill' => 'SCSS',
-                'years_experience' => 2.5,
-                'type' => 'studie',
-            ]
-        );
-
-        DB::table('skills')->insert(
-            [
-                'id' => 6,
-                'skill' => 'SCSS',
-                'years_experience' => 1,
-                'type' => 'autodidact',
-            ]
-        );
-
-        // -----------------------------
-
-        DB::table('skills')->insert(
-            [
-                'id' => 7,
-                'skill' => 'PHP',
-                'years_experience' => 4,
-                'type' => 'werkervaring',
-            ]
-        );
-
-        DB::table('skills')->insert(
-            [
-                'id' => 8,
                 'skill' => 'PHP',
                 'years_experience' => 2,
                 'type' => 'studie',
@@ -92,8 +63,36 @@ class SkillSeeder extends Seeder
 
         DB::table('skills')->insert(
             [
-                'id' => 9,
+                'id' => 6,
                 'skill' => 'PHP',
+                'years_experience' => 1,
+                'type' => 'autodidact',
+            ]
+        );
+        // -----------------------------
+
+        DB::table('skills')->insert(
+            [
+                'id' => 7,
+                'skill' => 'CSS variants',
+                'years_experience' => 4,
+                'type' => 'werkervaring',
+            ]
+        );
+
+        DB::table('skills')->insert(
+            [
+                'id' => 8,
+                'skill' => 'CSS variants',
+                'years_experience' => 2.5,
+                'type' => 'studie',
+            ]
+        );
+
+        DB::table('skills')->insert(
+            [
+                'id' => 9,
+                'skill' => 'CSS variants',
                 'years_experience' => 1,
                 'type' => 'autodidact',
             ]
@@ -162,8 +161,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 16,
-                'skill' => 'Vue.js',
-                'years_experience' => 1.5,
+                'skill' => 'Symfony',
+                'years_experience' => 1,
                 'type' => 'werkervaring',
             ]
         );
@@ -171,7 +170,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 17,
-                'skill' => 'Yii',
+                'skill' => 'Symfony',
                 'years_experience' => 0,
                 'type' => 'studie',
             ]
@@ -180,8 +179,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 18,
-                'skill' => 'Yii',
-                'years_experience' => 0,
+                'skill' => 'Symfony',
+                'years_experience' => 0.5,
                 'type' => 'autodidact',
             ]
         );
@@ -191,8 +190,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 19,
-                'skill' => 'Yii',
-                'years_experience' => 1,
+                'skill' => 'Vue.js',
+                'years_experience' => 1.5,
                 'type' => 'werkervaring',
             ]
         );
@@ -200,7 +199,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 20,
-                'skill' => 'Yii',
+                'skill' => 'Vue.js',
                 'years_experience' => 0,
                 'type' => 'studie',
             ]
@@ -209,8 +208,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 21,
-                'skill' => 'Yii',
-                'years_experience' => 0.2,
+                'skill' => 'Vue.js',
+                'years_experience' => 0,
                 'type' => 'autodidact',
             ]
         );
@@ -220,8 +219,8 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 22,
-                'skill' => 'Symfony',
-                'years_experience' => 0,
+                'skill' => 'Docker',
+                'years_experience' => 0.5,
                 'type' => 'werkervaring',
             ]
         );
@@ -229,7 +228,7 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 23,
-                'skill' => 'Symfony',
+                'skill' => 'Docker',
                 'years_experience' => 0,
                 'type' => 'studie',
             ]
@@ -238,8 +237,37 @@ class SkillSeeder extends Seeder
         DB::table('skills')->insert(
             [
                 'id' => 24,
-                'skill' => 'Symfony',
+                'skill' => 'Docker',
+                'years_experience' => 0.2,
+                'type' => 'autodidact',
+            ]
+        );
+
+        // -----------------------------
+
+        DB::table('skills')->insert(
+            [
+                'id' => 25,
+                'skill' => 'AWS',
                 'years_experience' => 0.5,
+                'type' => 'werkervaring',
+            ]
+        );
+
+        DB::table('skills')->insert(
+            [
+                'id' => 26,
+                'skill' => 'AWS',
+                'years_experience' => 0,
+                'type' => 'studie',
+            ]
+        );
+
+        DB::table('skills')->insert(
+            [
+                'id' => 27,
+                'skill' => 'AWS',
+                'years_experience' => 0,
                 'type' => 'autodidact',
             ]
         );

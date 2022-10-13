@@ -28,7 +28,7 @@ return [
             04. ABOUT ME
     =======================*/
     'aboutme' => 'Over mij',
-    'aboutme-text' => 'Ik ben een enthousiaste PHP backend developer met 4+ jaar ervaring, die het liefst elke dag iets nieuws leert. Het liefst werk ik met het Laravel framework, al heb ik ook ervaring met Symfony en Yii. In mijn vrije tijd experimenteer ik graag met andere talen, zoals Swift voor het bouwen van iOS apps.
+    'aboutme-text' => 'Ik ben een enthousiaste PHP backend developer met 5 jaar ervaring, die het liefst elke dag iets nieuws leert. Het liefst werk ik met het Laravel framework, al heb ik ook ervaring met Symfony en Yii. In mijn vrije tijd experimenteer ik graag met andere talen, zoals Swift voor het bouwen van iOS apps.
 Ik werk graag in scrum teams, het liefst vanuit huis, maar op kantoor is ook mogelijk in overleg, afhankelijk van locatie. Ik presteer het beste wanneer ik wat tijd heb waarin ik ononderbroken mijn werk kan doen, om me fatsoenlijk te concentreren op de taak van de dag.
 Wanneer je mij leert kennen, zul je realiseren dat er veel meer schuilt achter deze dame achter een laptop. Sport en creatieve uitlaatkleppen, concerten en films zijn allemaal favoriete tijdverdrijven.',
     'name' => 'Naam',
@@ -52,7 +52,7 @@ Wanneer je mij leert kennen, zul je realiseren dat er veel meer schuilt achter d
     'foodticket' => [
         'title' => 'Fullstack Developer',
         'stack' => 'PHP, Laravel, MySQL, BitBucket, AWS',
-        'period' => 'October 2020 - Heden',
+        'period' => 'October 2020 - Juli 2022',
         'description' => 'Ontwikkeling en verbetering van het OrderBuddy systeem, dat voor horeca mogelijkheden biedt om online en op lokatie orders van klanten aan te nemen en te verwerken. Daarnaast doorontwikkeling van een online reserveringssysteem voor een diner verrassingsconcept.',
     ],
     'onlineafspraken' => [
@@ -78,12 +78,6 @@ Wanneer je mij leert kennen, zul je realiseren dat er veel meer schuilt achter d
         'stack' => 'PHP, Shopware, Smarty, ePages, CSS, HTML',
         'period' => 'November 2016 - April 2017',
         'description' => 'Tijdens deze afstudeerstage ben ik verantwoordelijk geweest voor het bouwen van een nieuwe webshop, hierbij ook het klantcontact afgehandeld en het design naar code vertaald.',
-    ],
-    'heuvelman' => [
-        'title' => 'Internship Web Developer',
-        'stack' => 'PHP, CSS, HTML',
-        'period' => 'August 2015 - December 2015',
-        'description' => 'Deze stage omvatte het implementeren van design naar product voor de NS Servicewinkels op grote stations. Daarnaast heb ik meeontwikkeld aan een applicatie voor Right to Play.',
     ],
 
     /*=====================

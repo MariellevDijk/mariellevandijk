@@ -39,7 +39,7 @@
 					<div class="col-xl-12 slider-height d-flex justify-content-center align-items-center">
 						<div class="single-slider-content text-center name-title">
 							<h1 class="font-weight-bold">Mariëlle</h1>
-							<h4 class="text-uppercase">Fullstack PHP Developer</h4>
+							<h4 class="text-uppercase">Freelance PHP Developer</h4>
 							<ul>
 								<li><a href="https://github.com/MariellevDijk"><i class="ion-social-github-outline"></i></a></li>
 								<li><a href="https://www.linkedin.com/in/mariellevdijk/"><i class="ion-social-linkedin-outline"></i></a></li>
