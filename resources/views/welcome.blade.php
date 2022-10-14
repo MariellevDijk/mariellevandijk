@@ -6,7 +6,7 @@
 	<title> PHP Dev Mariëlle </title>
 
 	<!-- favicon -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+	<link rel="shortcut icon" type="image/png" href="img/about/marielle.png">
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="css/style.css">
