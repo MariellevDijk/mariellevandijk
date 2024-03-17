@@ -50,6 +50,12 @@ return [
     'employers' => 'Employers',
     'internships' => 'Internships',
     'all' => 'All',
+    'marielle' => [
+        'title' => 'Freelance PHP Developer',
+        'stack' => 'PHP, Laravel, Symfony',
+        'period' => 'September 2022 - Current',
+        'description' => 'Development of applications as freelancer for customers and diverse own projects.',
+    ],
     'foodticket' => [
         'title' => 'Fullstack Developer',
         'stack' => 'PHP, Laravel, MySQL, BitBucket, AWS',
@@ -113,9 +119,9 @@ return [
      ======================*/
     'ron' => [
         'position' => 'IT and Innovation Director @ PTI',
-        'text' => 'Mariëlle is a good Junior Developer, she is very eager to learn and her strengths will come to use in diverse development teams in a company.',
+        'text' => 'Mariëlle is a good Developer, she is very eager to learn and her strengths will come to use in diverse development teams in a company.',
         'text2' => "In the period she worked at PTI, I've got to know her as a silent force with a drive to reach for higher levels of skills.",
-        'text3' => 'Mariëlle has no 9-5 mentality and is under the guidance of a good Senior Developer a real asset in a development team.',
+        'text3' => 'Mariëlle has no 9-5 mentality and is a real asset in a development team.',
     ],
     'robin' => [
         'position' => 'Software Developer and Agile enthusiast',

@@ -112,9 +112,9 @@ Wanneer je mij leert kennen, zul je realiseren dat er veel meer schuilt achter d
      ======================*/
     'ron' => [
         'position' => 'Directeur IT en Innovatie bij PTI',
-        'text' => 'Mariëlle is een goede junior developer die zeer leergierig is en graag wordt ingezet binnen de diverse development teams in een bedrijf.',
+        'text' => 'Mariëlle is een goede developer die zeer leergierig is en graag wordt ingezet binnen de diverse development teams in een bedrijf.',
         'text2' => 'In de periode dat zij bij PTI heeft gewerkt heb ik haar leren kennen als een stille kracht die vooral veel wil leren om tot een hoger niveau te kunnen komen.',
-        'text3' => 'Mariëlle heeft geen 9 tot 5 mentaliteit en is onder leiding van een goede senior developer een aanwinst binnen een development team.',
+        'text3' => 'Mariëlle heeft geen 9 tot 5 mentaliteit en is een aanwinst binnen een development team.',
     ],
     'robin' => [
         'position' => 'Software Developer and Agile enthusiast',

@@ -88,5 +88,19 @@ class ExperienceSeeder extends Seeder
                 'company' => 'foodticket',
             ]
         );
+
+        DB::table('experience')->insert(
+            [
+                'id' => 9,
+                'title' => 'Freelance Developer',
+                'period' => 'September 2022 - Heden',
+                'stack' => json_encode(['PHP', 'Laravel', 'Symfony']),
+                'description' => 'Ontwikkeling van applicaties als ZZPer voor klanten en diverse eigen projecten',
+                'image' => 'img/about/marielle.png',
+                'alt_image' => 'Marielle.DEV',
+                'types' => json_encode(['job']),
+                'company' => 'Marielle',
+            ]
+        );
     }
 }
