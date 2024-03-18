@@ -50,7 +50,7 @@ return [
     'employers' => 'Employers',
     'internships' => 'Internships',
     'all' => 'All',
-    'marielle' => [
+    'Marielle' => [
         'title' => 'Freelance PHP Developer',
         'stack' => 'PHP, Laravel, Symfony',
         'period' => 'September 2022 - Current',

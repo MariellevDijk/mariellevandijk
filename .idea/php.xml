@@ -126,6 +126,7 @@
       <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
       <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
       <path value="$PROJECT_DIR$/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
